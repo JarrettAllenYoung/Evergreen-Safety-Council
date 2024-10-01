@@ -1,0 +1,475 @@
+<HTML>
+<Head>
+<Title>Private Training Request</Title>
+</Head>
+
+<body>
+
+<NLFORM>
+
+<!--ESC LOGO AND LINK TO ESC.ORG-->
+<div style="width: 60%; margin: auto; margin-top: 25px; margin-bottom: 50px;">
+<div>
+<p align="left">
+<a href="https://www.esc.org/" target="_blank">
+<img width=200 src="https://www.esc.org/wp-content/uploads/2022/08/Logo-Green-SVG.svg">
+</a>
+</p>
+</div>
+
+<!--TITLE AND INSTRUCTIONS-->
+<div style="margin-top:25px;">
+<p style="font-weight: bold; font-size: 28px; text-align: center;">
+Private Training Request Form
+</p>
+<br />
+<p align=Left>
+Bring one of our expert instructors to your facility to train your crew! Please fill out as much information as possible and our training specialist will be in touch within 1-3 business days.
+<br />
+<b style="font-size: 14px;">* indicates a required field.</b>
+</p>
+</div>
+ 
+<!--COMPANY AND CONTACT--> 
+<div style="margin-top:25px;">
+<NLSUBSIDIARY> 
+<p style="margin-bottom:20px;"><b>Company or organization*</b> 
+<!--<NLCOMPANYNAME>--><input name="companyname" id="companyname" class="input uir-custom-field" size="50" style="height:35px; padding:10px; font-size:14px;border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;" required >
+<p style="margin-bottom:10px;">Point of contact for training coordination:</p>
+<!--<NLFIRSTNAME>--><p style="margin-bottom:10px;"><b>First name* </b><input name="firstname" id="firstname" class="input uir-custom-field" size="40" style="height:35px; padding:10px; font-size:14px; border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;" required></p>
+<!--<NLLASTNAME>--><p style="margin-bottom:10px;"><b>Last name* </b><input name="lastname" id="lastname" class="input uir-custom-field" size="40" style="height:35px; padding:10px; font-size:14px; border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;" required></p>
+<!--<NLEMAIL>--><p style="margin-bottom:10px;"><b>Email address* </b><input name="email" id="email" class="input uir-custom-field" size="40" style="height:35px; padding:10px; font-size:14px; border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;" required></p>
+<!--<NLPHONE>--><p style="margin-bottom:10px;"><b>Phone number* </b><input name="phone" id="phone" class="input uir-custom-field" size="40" style="height:35px; padding:10px; font-size:14px; border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;" required></p>
+</div>
+
+<!--TRAINING TYPE--> 
+<p style="margin-top:25px;"><b>Which safety training program(s) are you interested in?*</b> (Select multiple days by holding the Ctrl button and clicking multiple options.)</p>
+
+<!--NLCUSTENTITYtraining_program-->
+
+<span id='custentitytraining_program_fs' data-fieldtype="multiselect"  class=' nlEffectMultiSelNative' style="white-space: nowrap;">
+<select   multiple size ="6" name='custentitytraining_program' id='custentitytraining_program' class='input' style="font-size:14px; width=125px; padding:5px; border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;">
+
+<!--flags='2268816609280' type='select-multiple' valuewhenrendered='' aria-labelledby="custentitytraining_program_fs_lbl" onchange="if(!this.noslaving) { setWindowChanged(window, true); }" multiple size=4-->
+
+<option value='1' >Forklift training</option>
+<option value='2' >EverSafe Driving Program (R)</option>
+<option value='3' >PEVO (Pilot/Escort Vehicle Operator) training</option>
+<option value='4' >WITPAC training</option>
+<option value='5' >Flagger training</option>
+<option value='6' >TCS (Traffic Control Supervisor) training</option>
+</select>
+<!--span class='positionTop effectStatic'></span></span-->
+
+
+<!--STUDENTS AND PREFERRED DATES-->
+
+<p style="margin-top:25px; margin-bottom:5px;">What is the anticipated number of students?</p>
+<input name="CUSTENTITYprospect_anticipated_students" id="CUSTENTITYprospect_anticipated_students" class="input uir-custom-field" size=15 style="height: 35px; padding: 10px; font-size: 14px; border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;">
+<!--<NLCUSTENTITYprospect_anticipated_students>-->
+
+<p style="padding-top:25px; padding-bottom:5px;">What day(s) would work best to hold training? (Select multiple days by holding the Ctrl button and clicking multiple options.)</p>
+<!--<NLCUSTENTITYprospect_best_days>-->
+
+<select multiple size="7" name="custentityprospect_best_days" id="custentityprospect_best_days" class="input" style="font-size:14px; width=125px; padding:5px; border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;">
+<option value='1' >Sunday</option>
+<option value='2' >Monday</option>
+<option value='3' >Tuesday</option>
+<option value='4' >Wednesday</option>
+<option value='5' >Thursday</option>
+<option value='6' >Friday</option>
+<option value='7' >Saturday</option>
+</select>
+
+<p style="margin-top:25px; margin-bottom: 5px;"><b>What date do you need to have the training completed by?*</b></p> 
+<input name="custentityprospect_date_needed" id="custentityprospect_date_needed" class="input uir-custom-field" size="20" style="height:35px; padding:10px; font-size:14px;border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;" required>
+<a onClick="nlOpenWindow('/core/pages/calendar.nl?target=main:custentityprospect_date_needed&theme=-651','calendar',195,200,this,false);return false;" onKeyPress="event.cancelBubble = true; return true;" tabindex="-1" href="javascript:void('custentityprospect_date_needed')" id="custentityprospect_date_needed_helper_calendar" title="Pick" style="font-size:14px;">Click here to select date</a>
+	
+
+<!--LOCATION OF TRAINING
+<NLADDRESS1>
+<NLADDRESS2>
+<NLCITY>
+<NLSTATE>
+<NLZIPCODE>
+<NLCOUNTRY>
+-->
+
+<p style="margin-top25px; margin-bottom:10px;">Location of training:</p>
+
+<p style="margin-bottom:10px;"><b>Street address*</b> <input required name="address1" id="address1" class="input uir-custom-field" size="50" style="height:35px; padding:10px; font-size:14px;border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;"></p>
+
+<p style="margin-bottom:10px;">Address 2 <input name="address2" id="address2" class="input uir-custom-field" size="50" style="height:35px; padding:10px; font-size:14px;border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;"></p>
+
+<p style="margin-bottom:10px;"><b>City*</b> <input required name="city" id="city" class="input uir-custom-field" size="40" style="height:35px; padding:10px; font-size:14px;border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;"><span style="margin-bottom:10px;"></p>
+
+<p style="margin-bottom:10px;">
+<b>State*</b> 
+<select required name="state" id="state" class="inputreq" style="font-size:14px; width=125px; padding:5px; border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;">
+<option value='' selected></option>
+<option value='0' >Alabama</option>
+<option value='1' >Alaska</option>
+<option value='2' >Arizona</option>
+<option value='3' >Arkansas</option>
+<option value='53' >Armed Forces Americas</option>
+<option value='52' >Armed Forces Europe</option>
+<option value='54' >Armed Forces Pacific</option>
+<option value='4' >California</option>
+<option value='5' >Colorado</option>
+<option value='6' >Connecticut</option>
+<option value='7' >Delaware</option>
+<option value='8' >District of Columbia</option>
+<option value='9' >Florida</option>
+<option value='10' >Georgia</option>
+<option value='11' >Hawaii</option>
+<option value='12' >Idaho</option>
+<option value='13' >Illinois</option>
+<option value='14' >Indiana</option>
+<option value='15' >Iowa</option>
+<option value='16' >Kansas</option>
+<option value='17' >Kentucky</option>
+<option value='18' >Louisiana</option>
+<option value='19' >Maine</option>
+<option value='20' >Maryland</option>
+<option value='21' >Massachusetts</option>
+<option value='22' >Michigan</option>
+<option value='23' >Minnesota</option>
+<option value='24' >Mississippi</option>
+<option value='25' >Missouri</option>
+<option value='26' >Montana</option>
+<option value='27' >Nebraska</option>
+<option value='28' >Nevada</option>
+<option value='29' >New Hampshire</option>
+<option value='30' >New Jersey</option>
+<option value='31' >New Mexico</option>
+<option value='32' >New York</option>
+<option value='33' >North Carolina</option>
+<option value='34' >North Dakota</option>
+<option value='35' >Ohio</option>
+<option value='36' >Oklahoma</option>
+<option value='37' >Oregon</option>
+<option value='38' >Pennsylvania</option>
+<option value='39' >Puerto Rico</option>
+<option value='40' >Rhode Island</option>
+<option value='41' >South Carolina</option>
+<option value='42' >South Dakota</option>
+<option value='43' >Tennessee</option>
+<option value='44' >Texas</option>
+<option value='45' >Utah</option>
+<option value='46' >Vermont</option>
+<option value='47' >Virginia</option>
+<option value='48' >Washington</option>
+<option value='49' >West Virginia</option>
+<option value='50' >Wisconsin</option>
+<option value='51' >Wyoming</option>
+</select>
+</p>
+
+<p style="margin-bottom:10px;"><b>Zip/Postal Code* </b><input required name="zipcode" id="zipcode" class="input uir-custom-field" size="20" style="height:35px; padding:10px; font-size:14px;border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;"></p>
+
+<p>Country 
+<select name="country" id="country" class="inputreq" style=" width:30%; font-size:14px; width=125px; padding:5px; border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;">
+<option value='' selected></option>
+<option value='US' >United States</option>
+<option value='AF' >Afghanistan</option>
+<option value='AL' >Albania</option>
+<option value='DZ' >Algeria</option>
+<option value='AS' >American Samoa</option>
+<option value='AD' >Andorra</option>
+<option value='AO' >Angola</option>
+<option value='AI' >Anguilla</option>
+<option value='AQ' >Antarctica</option>
+<option value='AG' >Antigua and Barbuda</option>
+<option value='AR' >Argentina</option>
+<option value='AM' >Armenia</option>
+<option value='AW' >Aruba</option>
+<option value='AU' >Australia</option>
+<option value='AT' >Austria</option>
+<option value='AZ' >Azerbaijan</option>
+<option value='BS' >Bahamas</option>
+<option value='BH' >Bahrain</option>
+<option value='BD' >Bangladesh</option>
+<option value='BB' >Barbados</option>
+<option value='BY' >Belarus</option>
+<option value='BE' >Belgium</option>
+<option value='BZ' >Belize</option>
+<option value='BJ' >Benin</option>
+<option value='BM' >Bermuda</option>
+<option value='BT' >Bhutan</option>
+<option value='BO' >Bolivia (Plurinational State of)</option>
+<option value='BQ' >Bonaire, Sint Eustatius and Saba</option>
+<option value='BA' >Bosnia and Herzegovina</option>
+<option value='BW' >Botswana</option>
+<option value='BV' >Bouvet Island</option>
+<option value='BR' >Brazil</option>
+<option value='IO' >British Indian Ocean Territory</option>
+<option value='BN' >Brunei Darussalam</option>
+<option value='BG' >Bulgaria</option>
+<option value='BF' >Burkina Faso</option>
+<option value='BI' >Burundi</option>
+<option value='CV' >Cabo Verde</option>
+<option value='KH' >Cambodia</option>
+<option value='CM' >Cameroon</option>
+<option value='CA' >Canada</option>
+<option value='IC' >Canary Islands</option>
+<option value='KY' >Cayman Islands</option>
+<option value='CF' >Central African Republic</option>
+<option value='EA' >Ceuta and Melilla</option>
+<option value='TD' >Chad</option>
+<option value='CL' >Chile</option>
+<option value='CN' >China</option>
+<option value='CX' >Christmas Island</option>
+<option value='CC' >Cocos (Keeling) Islands</option>
+<option value='CO' >Colombia</option>
+<option value='KM' >Comoros</option>
+<option value='CG' >Congo</option>
+<option value='CD' >Congo (the Democratic Republic of the)</option>
+<option value='CK' >Cook Islands</option>
+<option value='CR' >Costa Rica</option>
+<option value='HR' >Croatia</option>
+<option value='CU' >Cuba</option>
+<option value='CW' >Curaçao</option>
+<option value='CY' >Cyprus</option>
+<option value='CZ' >Czechia</option>
+<option value='CI' >Côte d'Ivoire</option>
+<option value='DK' >Denmark</option>
+<option value='DJ' >Djibouti</option>
+<option value='DM' >Dominica</option>
+<option value='DO' >Dominican Republic</option>
+<option value='EC' >Ecuador</option>
+<option value='EG' >Egypt</option>
+<option value='SV' >El Salvador</option>
+<option value='GQ' >Equatorial Guinea</option>
+<option value='ER' >Eritrea</option>
+<option value='EE' >Estonia</option>
+<option value='SZ' >Eswatini</option>
+<option value='ET' >Ethiopia</option>
+<option value='FK' >Falkland Islands (Malvinas)</option>
+<option value='FO' >Faroe Islands</option>
+<option value='FJ' >Fiji</option>
+<option value='FI' >Finland</option>
+<option value='FR' >France</option>
+<option value='GF' >French Guiana</option>
+<option value='PF' >French Polynesia</option>
+<option value='TF' >French Southern Territories</option>
+<option value='GA' >Gabon</option>
+<option value='GM' >Gambia</option>
+<option value='GE' >Georgia</option>
+<option value='DE' >Germany</option>
+<option value='GH' >Ghana</option>
+<option value='GI' >Gibraltar</option>
+<option value='GR' >Greece</option>
+<option value='GL' >Greenland</option>
+<option value='GD' >Grenada</option>
+<option value='GP' >Guadeloupe</option>
+<option value='GU' >Guam</option>
+<option value='GT' >Guatemala</option>
+<option value='GG' >Guernsey</option>
+<option value='GN' >Guinea</option>
+<option value='GW' >Guinea-Bissau</option>
+<option value='GY' >Guyana</option>
+<option value='HT' >Haiti</option>
+<option value='HM' >Heard Island and McDonald Islands</option>
+<option value='VA' >Holy See</option>
+<option value='HN' >Honduras</option>
+<option value='HK' >Hong Kong</option>
+<option value='HU' >Hungary</option>
+<option value='IS' >Iceland</option>
+<option value='IN' >India</option>
+<option value='ID' >Indonesia</option>
+<option value='IR' >Iran (Islamic Republic of)</option>
+<option value='IQ' >Iraq</option>
+<option value='IE' >Ireland</option>
+<option value='IM' >Isle of Man</option>
+<option value='IL' >Israel</option>
+<option value='IT' >Italy</option>
+<option value='JM' >Jamaica</option>
+<option value='JP' >Japan</option>
+<option value='JE' >Jersey</option>
+<option value='JO' >Jordan</option>
+<option value='KZ' >Kazakhstan</option>
+<option value='KE' >Kenya</option>
+<option value='KI' >Kiribati</option>
+<option value='KP' >Korea (the Democratic People's Republic of)</option>
+<option value='KR' >Korea (the Republic of)</option>
+<option value='XK' >Kosovo</option>
+<option value='KW' >Kuwait</option>
+<option value='KG' >Kyrgyzstan</option>
+<option value='LA' >Lao People's Democratic Republic</option>
+<option value='LV' >Latvia</option>
+<option value='LB' >Lebanon</option>
+<option value='LS' >Lesotho</option>
+<option value='LR' >Liberia</option>
+<option value='LY' >Libya</option>
+<option value='LI' >Liechtenstein</option>
+<option value='LT' >Lithuania</option>
+<option value='LU' >Luxembourg</option>
+<option value='MO' >Macao</option>
+<option value='MG' >Madagascar</option>
+<option value='MW' >Malawi</option>
+<option value='MY' >Malaysia</option>
+<option value='MV' >Maldives</option>
+<option value='ML' >Mali</option>
+<option value='MT' >Malta</option>
+<option value='MH' >Marshall Islands</option>
+<option value='MQ' >Martinique</option>
+<option value='MR' >Mauritania</option>
+<option value='MU' >Mauritius</option>
+<option value='YT' >Mayotte</option>
+<option value='MX' >Mexico</option>
+<option value='FM' >Micronesia (Federated States of)</option>
+<option value='MD' >Moldova (the Republic of)</option>
+<option value='MC' >Monaco</option>
+<option value='MN' >Mongolia</option>
+<option value='ME' >Montenegro</option>
+<option value='MS' >Montserrat</option>
+<option value='MA' >Morocco</option>
+<option value='MZ' >Mozambique</option>
+<option value='MM' >Myanmar</option>
+<option value='NA' >Namibia</option>
+<option value='NR' >Nauru</option>
+<option value='NP' >Nepal</option>
+<option value='NL' >Netherlands</option>
+<option value='AN' >Netherlands Antilles (Deprecated)</option>
+<option value='NC' >New Caledonia</option>
+<option value='NZ' >New Zealand</option>
+<option value='NI' >Nicaragua</option>
+<option value='NE' >Niger</option>
+<option value='NG' >Nigeria</option>
+<option value='NU' >Niue</option>
+<option value='NF' >Norfolk Island</option>
+<option value='MK' >North Macedonia</option>
+<option value='MP' >Northern Mariana Islands</option>
+<option value='NO' >Norway</option>
+<option value='OM' >Oman</option>
+<option value='PK' >Pakistan</option>
+<option value='PW' >Palau</option>
+<option value='PS' >Palestine, State of</option>
+<option value='PA' >Panama</option>
+<option value='PG' >Papua New Guinea</option>
+<option value='PY' >Paraguay</option>
+<option value='PE' >Peru</option>
+<option value='PH' >Philippines</option>
+<option value='PN' >Pitcairn</option>
+<option value='PL' >Poland</option>
+<option value='PT' >Portugal</option>
+<option value='PR' >Puerto Rico</option>
+<option value='QA' >Qatar</option>
+<option value='RO' >Romania</option>
+<option value='RU' >Russian Federation</option>
+<option value='RW' >Rwanda</option>
+<option value='RE' >Réunion</option>
+<option value='BL' >Saint Barthélemy</option>
+<option value='SH' >Saint Helena, Ascension and Tristan da Cunha</option>
+<option value='KN' >Saint Kitts and Nevis</option>
+<option value='LC' >Saint Lucia</option>
+<option value='MF' >Saint Martin (French part)</option>
+<option value='PM' >Saint Pierre and Miquelon</option>
+<option value='VC' >Saint Vincent and the Grenadines</option>
+<option value='WS' >Samoa</option>
+<option value='SM' >San Marino</option>
+<option value='ST' >Sao Tome and Principe</option>
+<option value='SA' >Saudi Arabia</option>
+<option value='SN' >Senegal</option>
+<option value='RS' >Serbia</option>
+<option value='CS' >Serbia and Montenegro (Deprecated)</option>
+<option value='SC' >Seychelles</option>
+<option value='SL' >Sierra Leone</option>
+<option value='SG' >Singapore</option>
+<option value='SX' >Sint Maarten (Dutch part)</option>
+<option value='SK' >Slovakia</option>
+<option value='SI' >Slovenia</option>
+<option value='SB' >Solomon Islands</option>
+<option value='SO' >Somalia</option>
+<option value='ZA' >South Africa</option>
+<option value='GS' >South Georgia and the South Sandwich Islands</option>
+<option value='SS' >South Sudan</option>
+<option value='ES' >Spain</option>
+<option value='LK' >Sri Lanka</option>
+<option value='SD' >Sudan</option>
+<option value='SR' >Suriname</option>
+<option value='SJ' >Svalbard and Jan Mayen</option>
+<option value='SE' >Sweden</option>
+<option value='CH' >Switzerland</option>
+<option value='SY' >Syrian Arab Republic</option>
+<option value='TW' >Taiwan (Province of China)</option>
+<option value='TJ' >Tajikistan</option>
+<option value='TZ' >Tanzania, the United Republic of</option>
+<option value='TH' >Thailand</option>
+<option value='TL' >Timor-Leste</option>
+<option value='TG' >Togo</option>
+<option value='TK' >Tokelau</option>
+<option value='TO' >Tonga</option>
+<option value='TT' >Trinidad and Tobago</option>
+<option value='TN' >Tunisia</option>
+<option value='TM' >Turkmenistan</option>
+<option value='TC' >Turks and Caicos Islands</option>
+<option value='TV' >Tuvalu</option>
+<option value='TR' >Türkiye</option>
+<option value='UG' >Uganda</option>
+<option value='UA' >Ukraine</option>
+<option value='AE' >United Arab Emirates</option>
+<option value='GB' >United Kingdom</option>
+<option value='UM' >United States Minor Outlying Islands</option>
+<option value='UY' >Uruguay</option>
+<option value='UZ' >Uzbekistan</option>
+<option value='VU' >Vanuatu</option>
+<option value='VE' >Venezuela (Bolivarian Republic of)</option>
+<option value='VN' >Viet Nam</option>
+<option value='VG' >Virgin Islands (British)</option>
+<option value='VI' >Virgin Islands (U.S.)</option>
+<option value='WF' >Wallis and Futuna</option>
+<option value='EH' >Western Sahara</option>
+<option value='YE' >Yemen</option>
+<option value='ZM' >Zambia</option>
+<option value='ZW' >Zimbabwe</option>
+<option value='AX' >Åland Islands</option>
+</select>
+</p>
+
+<!--ADDITIONAL DETAILS-->
+<!--<NLCOMMENTS>-->
+<p style="margin-top:25px;">Please provide any additional details or requirements here. </p>
+<textarea name="comments" id="comments" rpws=6 style="width:80%; padding:10px; font-size:14px; border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;";></textarea>
+
+<!--<NLcustentityprospect_hear_about_us>-->
+<p style="margin-top:25px;">How did you hear about us?</p>
+<select name="custentityprospect_hear_about_us" id="custentityprospect_hear_about_us" class="inputreq" style="font-size:14px; width=125px; padding:5px; border: 2px solid #ccc; border-radius: 4px; background-color: #f8f8f8;">
+<option value='' selected></option>
+<option value='1' >Friend, family, or coworker recommended it</option>
+<option value='2' >GISHAB</option>
+<option value='3' >My boss or supervisor</option>
+<option value='4' >Google</option>
+<option value='5' >Flyer/poster</option>
+<option value='6' >Social Media</option>
+<option value='7' >I previously attended a class at Evergreen</option>
+<option value='8' >WorkSource</option>
+<option value='9' >Career Bridge</option>
+<option value='10' >Email</option>
+<option value='11' >Through a school career center</option>
+<option value='12' >Other</option>
+</select>
+</p>
+
+
+<!--SUBMIT BUTTON-->
+<p><input type="submit" value="Submit" style="background-color:#26834F; width:20%; font-size:20px; padding:10px; color:#FFFFFF; border-radius:20px; border:0px; margin-top:25px;"></p>
+
+<div style="width: 60%; margin: auto; margin-top: 25px; margin-bottom: 50px;">
+<p align="center">
+<a href="https://www.esc.org/" target="_blank">
+<img width=200 src="https://www.esc.org/wp-content/uploads/2022/08/Logo-Green-SVG.svg">
+<p align="center" style="font-size:14px;"><a href="http://www.esc.org">Return to Evergreen Safety Council Home</a>
+</a>
+</p>
+</div>
+
+
+
+
+
+
+
+  </form>
+</body>
+</HTML> 
