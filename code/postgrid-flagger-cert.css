@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 816px;
+  height: 1056px;
+}
+
+.page {
+  position: relative;
+  width: 816px;
+  height: 1056px;
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-white {
+  background-color: white;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  padding-left: 0.85em;
+}
+
+/* generic positioned blocks */
+
+.abs-block {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+/* text base + variants */
+
+.text-block {
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+  opacity: 1;
+  text-align: justify;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  text-decoration: none;
+  white-space: pre-wrap;
+}
+
+.text-open-sans {
+  font-family: 'Open Sans';
+}
+
+.text-archivo {
+  font-family: 'Archivo Narrow';
+}
+
+.text-13 {
+  font-size: 13px;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.text-12-9 {
+  font-size: 12.934311492484186px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-red {
+  color: rgba(255, 0, 0, 1);
+}
+
+/* first-page elements */
+
+.letter-text {
+  left: 53.780549987364694px;
+  top: 331.7579505969776px;
+  width: 656.0789781197835px;
+  height: 202.71875px;
+}
+
+.logo-container {
+  left: 53.78054998736467px;
+  top: 547.2875917099532px;
+  width: 134.82762800694357px;
+  height: 20.751248096541843px;
+  clip: rect(0px, 134.82762800694357px, 20.751248096541843px, 0px);
+  overflow: visible;
+  transform: rotate(0deg) scaleX(1) scaleY(1);
+  transform-origin: top left;
+}
+
+.logo-img {
+  width: 134.82762800694357px;
+  height: 20.751248096541936px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  margin-top: 0px;
+  margin-left: 0px;
+  opacity: 1;
+  filter: blur(0px) brightness(1);
+}
+
+/* second-page background */
+
+.page-bg-container {
+  left: 0px;
+  top: 0px;
+  width: 816px;
+  height: 1056px;
+  clip: rect(0px, 816px, 1056px, 0px);
+  overflow: visible;
+  transform: rotate(0deg) scaleX(1) scaleY(1);
+  transform-origin: top left;
+}
+
+.page-bg-img {
+  width: 816px;
+  height: 1056px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  margin-top: 0px;
+  margin-left: 0px;
+  opacity: 1;
+  filter: blur(0px) brightness(1);
+}
+
+/* second-page text blocks */
+
+.card-name {
+  left: 457.9417674883733px;
+  top: 831.1847021675472px;
+  width: 175.23623884794904px;
+  height: 15.59375px;
+}
+
+.card-number {
+  left: 472.2000341066723px;
+  top: 870.4977465273545px;
+  width: 112.64133501088315px;
+  height: 14.3984375px;
+}
+
+.card-dl {
+  left: 467.2000341066723px;
+  top: 851.8290184347984px;
+  width: 112.64133501088315px;
+  height: 14.3984375px;
+}
+
+.card-expiration {
+  left: 521.5366713254391px;
+  top: 890.023653972164px;
+  width: 112.64133501088315px;
+  height: 14.3984375px;
+}
+
+.card-class-date {
+  left: 492.7167798169546px;
+  top: 909.953915957919px;
+  width: 112.64133501088315px;
+  height: 14.3984375px;
+}
+
+.card-provider {
+  left: 187.28056014976875px;
+  top: 870.4977465273452px;
+  width: 214.46407756112674px;
+  height: 14.3984375px;
+}
+
+.card-instructor {
+  left: 244.08056014976785px;
+  top: 893.2977465273325px;
+  width: 152.02560335579037px;
+  height: 14.3984375px;
+}
+
+.card-location {
+  left: 234.00859696379547px;
+  top: 916.1531347079191px;
+  width: 152.02560335579037px;
+  height: 14.3984375px;
+}
+
+.card-instructions {
+  left: 64.40907486103337px;
+  top: 189.66894987569978px;
+  width: 686.6990002473731px;
+  height: 372.5625px;
+}
+
+/* shared span style */
+
+.body-muted {
+  color: rgb(35, 31, 32);
+}
